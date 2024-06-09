@@ -1,0 +1,12 @@
+.search-input {
+  margin-left: 16px; /* equivalent to ml: 2 with default spacing */
+  flex: 1;
+  background-color: white;
+  color: black;
+  border-radius: 4px; /* for border-radius: 1 in theme spacing */
+  padding: 0 10px;
+}
+
+.search-input:hover {
+  background-color: #e0e0e0; /* equivalent to grey.200 */
+}
