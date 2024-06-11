@@ -1,12 +1,63 @@
-.search-input {
-  margin-left: 16px; /* equivalent to ml: 2 with default spacing */
-  flex: 1;
-  background-color: white;
-  color: black;
-  border-radius: 4px; /* for border-radius: 1 in theme spacing */
-  padding: 0 10px;
+/* Box styles */
+
+
+.ps-sidebar-root {
+    height: 100% !important;
+    width: 270px !important;
+    min-width: 270px !important;
+    text-align: left !important;
+    transition: width, left, right, 0.3s !important;
+    position: relative !important;
+    z-index: 1009 !important;
+    -webkit-transition: width, left, right, 0.3s !important;
+    -moz-transition: width, left, right, 0.3s !important;
+    -ms-transition: width, left, right, 0.3s !important;
+    -o-transition: width, left, right, 0.3s !important;
 }
 
-.search-input:hover {
-  background-color: #e0e0e0; /* equivalent to grey.200 */
+
+
+/* ps-sidebar-root styles */
+.box .ps-sidebar-root {
+  border: 0px !important;
+  height: 100% !important;
+  width: 270px !important;
+  color: #adadad !important;
+}
+
+/* MuiBox-root styles */
+.box .MuiBox-root {
+  background: var(--colors-primary-400) !important;
+  margin: var(--colors-primary-400) !important;
+}
+
+/* ps-sidebar-container styles */
+.box .ps-sidebar-container {
+  background: var(--colors-primary-400) !important;
+  overflow: hidden auto !important;
+  position: relative !important;
+}
+
+/* ps-icon-wrapper styles */
+.box .ps-icon-wrapper {
+  background-color: transparent !important;
+}
+
+/* ps-menu-button styles */
+.box .ps-menu-button {
+  padding: 5px 35px 5px 20px !important;
+}
+
+.box .ps-menu-button:hover {
+  color: #868dfb !important;
+  background: var(--colors-primary-400) !important;
+}
+
+.box .ps-menu-button.active {
+  color: #6870fa !important;
+}
+
+/* Additional hover styles */
+.box .ps-menu-button:hover {
+  background: var(--colors-primary-400) !important;
 }

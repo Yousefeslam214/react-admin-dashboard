@@ -6,9 +6,9 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
+import { createTheme, ThemeProvider, CssBaseline } from '@mui/material';
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleMode } from '../../themeSlice';
-import { createTheme, ThemeProvider, CssBaseline } from '@mui/material';
 import { themeSettings, tokens } from '../../theme';
 
 
