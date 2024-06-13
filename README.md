@@ -43,7 +43,6 @@ cd react-admin-dashboard/my-app</code></pre>
         <li><strong>Start the development server</strong>:
             <pre><code>npm run dev</code></pre>
         </li>
-        
     </ol>
     <h2 id="project-structure">Project Structure</h2>
     <p>Here is an overview of the project structure:</p>
@@ -68,6 +67,7 @@ cd react-admin-dashboard/my-app</code></pre>
 ├── store.js // Redux store configuration
 ├── theme.js // Theme settings for Material-UI
 ├── themeSlice.js // Redux slice for theme settings</code></pre>
+
 <h2 id="usage">Usage</h2>
 <ul>
 <li><strong>Sidebar</strong>: Toggle the sidebar visibility by clicking the button in the top bar.</li>
