@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sidebar, Menu, MenuItem, } from 'react-pro-sidebar';
 import userImage from '../../assets/user.png';
-import '../../scss/styles.scss';
+// import '../../scss/styles.scss';
 import './Topbar.css'
 // import 'react-pro-sidebar/dist/css/styles.css';
 // @import '~react-pro-sidebar/dist/scss/styles.scss';
@@ -26,7 +26,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
-    <Link to={to}>
+    <Link to={to} className="no-underline">
       <MenuItem
         active={selected === title}
         style={{
@@ -41,14 +41,11 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   )
 }
 
-
 const TheSideBar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState("Dashboard");
-
-  console.log(colors.primary[400]);
 
   return (
     <Box
@@ -57,7 +54,7 @@ const TheSideBar = () => {
         "& .ps-sidebar-root": {
           border: `0px !important`,
           height: `100% !important`,
-          width: `270px`,
+          // width: `270px`,
         },
         "& .MuiBox-root": {
           background: `${colors.primary[400]} !important`,
@@ -72,7 +69,7 @@ const TheSideBar = () => {
           backgroundColor: "transparent !important",
         },
         "& .ps-menu-button": {
-          padding: "5px 35px 5px 20px !important",
+          padding: "5px 30px 5px 15px !important",
           "&:hover": {
             // color: colors.grey[100] + " !important",
             backgroundColor: colors.primary[400] + " !important",
@@ -81,9 +78,11 @@ const TheSideBar = () => {
         "& .ps-menu-button:hover": {
           color: "#868dfb !important",
           background: `${colors.primary[400]} !important`,
+
         },
         "& .ps-menu-button.active": {
           color: "#6870fa !important",
+
         },
       }}
     >
@@ -133,7 +132,7 @@ const TheSideBar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  yousef
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Fancy Admin

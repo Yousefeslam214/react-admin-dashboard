@@ -3,8 +3,6 @@
 
 .ps-sidebar-root {
     height: 100% !important;
-    width: 270px !important;
-    min-width: 270px !important;
     text-align: left !important;
     transition: width, left, right, 0.3s !important;
     position: relative !important;
@@ -13,9 +11,14 @@
     -moz-transition: width, left, right, 0.3s !important;
     -ms-transition: width, left, right, 0.3s !important;
     -o-transition: width, left, right, 0.3s !important;
+    text-decoration:  none !important; 
+
 }
 
-
+/* Remove underline from sidebar button */
+.ps-menu-button {
+  text-decoration: none !important;
+}
 
 /* ps-sidebar-root styles */
 .box .ps-sidebar-root {
@@ -60,4 +63,14 @@
 /* Additional hover styles */
 .box .ps-menu-button:hover {
   background: var(--colors-primary-400) !important;
+}
+
+.no-underline {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+}
+
+.no-underline:hover {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
 }
