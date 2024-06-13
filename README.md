@@ -43,7 +43,7 @@ cd react-admin-dashboard/my-app</code></pre>
         <li><strong>Start the development server</strong>:
             <pre><code>npm run dev</code></pre>
         </li>
-        <li><strong>Open your browser</strong> and go to <code>http://localhost:3000</code> to see the application.</li>
+        
     </ol>
     <h2 id="project-structure">Project Structure</h2>
     <p>Here is an overview of the project structure:</p>
@@ -68,13 +68,13 @@ cd react-admin-dashboard/my-app</code></pre>
 ├── store.js // Redux store configuration
 ├── theme.js // Theme settings for Material-UI
 ├── themeSlice.js // Redux slice for theme settings</code></pre>
-    <h2 id="usage">Usage</h2>
-    <ul>
-        <li><strong>Sidebar</strong>: Toggle the sidebar visibility by clicking the button in the top bar.</li>
-        <li><strong>Responsive Design</strong>: The application adjusts font size based on screen width for better readability on smaller screens.</li>
-        <li><strong>Dark/Light Mode</strong>: The application supports dark and light modes, which can be toggled in the settings. This feature is managed using Redux.</li>
-    </ul>
-    <h2 id="contributing">Contributing</h2>
-    <p>Feel free to fork the repository and submit pull requests. Any contributions are welcome!</p>
-    <h2 id="license">License</h2>
-    <p>This project is licensed under the MIT License.</p>
+<h2 id="usage">Usage</h2>
+<ul>
+<li><strong>Sidebar</strong>: Toggle the sidebar visibility by clicking the button in the top bar.</li>
+<li><strong>Responsive Design</strong>: The application adjusts font size based on screen width for better readability on smaller screens.</li>
+<li><strong>Dark/Light Mode</strong>: The application supports dark and light modes, which can be toggled in the settings. This feature is managed using Redux.</li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>Feel free to fork the repository and submit pull requests. Any contributions are welcome!</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License.</p>
