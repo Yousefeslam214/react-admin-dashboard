@@ -1,4 +1,5 @@
-    <h1>React Admin Dashboard</h1>
+   <h1>React Admin Dashboard</h1>
+
     <p>This is a React-based admin dashboard application. It includes a variety of components and scenes, such as charts, forms, and tables, to help manage and visualize data effectively. The application also supports dark and light mode, managed by Redux.</p>
 
     <h2>Table of Contents</h2>
@@ -37,6 +38,7 @@
             <pre><code>git clone https://github.com/yourusername/react-admin-dashboard.git
 
 cd react-admin-dashboard/my-app</code></pre>
+
 </li>
 <li><strong>Install dependencies</strong>:
 <pre><code>npm install</code></pre>
